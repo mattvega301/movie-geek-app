@@ -1,0 +1,98 @@
+
+.logoflex {
+    display: flex;
+}
+
+.logoflex img {
+    margin-right: 1em;
+    height: 8em;
+}
+
+.navbar {
+    display: flex;
+    background-color: #878280;
+    margin-bottom: 1em;
+    font-size: 20px;
+}
+
+nav .logo{
+    color: #ddd5d0;
+    font-size: 50px;
+}
+
+.navbar button{
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar a:visited, .navbar a:active {
+    color: inherit;
+}
+
+.link, .dropdown button{
+    padding: 1em;
+}
+
+
+.dropdown .dropdown-menu{
+    border: solid;
+    padding: 0.5em;
+    position: absolute;
+    background-color: #DDD5D0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.dropdown:hover > .dropdown-menu{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.dropdown:hover {
+    background-color: #7DA7A2;
+}
+
+.link:hover {
+    background-color: #7DA7A2;
+}
+
+.dropdown .dropdown-menu a{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+body{
+    background-color: #474444;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movies .movie_tile{
+    background-color: #312f2f;
+    width: 30%;
+    text-align: center;
+    border: solid;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.movies .movie_tile img{
+    height: 32em;
+}
+
+.movies .movie_tile .movie_title{
+    color: #ddd5d0;
+}
