@@ -1,0 +1,20 @@
+{
+  "name": "moviegeek_app",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000m\u0000o\u0000v\u0000i\u0000e\u0000-\u0000g\u0000e\u0000e\u0000k\u0000-\u0000a\u0000p\u0000p\u0000\r\u0000 \u0000",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattvega301/movie-geek-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattvega301/movie-geek-app/issues"
+  },
+  "homepage": "https://github.com/mattvega301/movie-geek-app#readme"
+}
